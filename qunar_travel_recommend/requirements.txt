@@ -1,0 +1,10 @@
+pandas
+requests
+beautifulsoup4
+jieba
+scikit-learn
+streamlit
+flask
+wordcloud
+matplotlib
+seaborn
