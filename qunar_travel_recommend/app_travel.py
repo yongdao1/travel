@@ -15,7 +15,7 @@ matplotlib.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 # ----------- 数据载入（兼容tab/逗号分隔和 BOM） -----------
-df = load_df("../data/featured_travel.csv"):
+df = load_df("/data/featured_travel.csv"):
     with open(path, 'r', encoding='utf-8') as f:
         header = f.readline()
     sep = '\t' if '\t' in header else ','
